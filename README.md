@@ -23,7 +23,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
     - [/utility](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/utility): some shared utilities in the App
   Now Don't be shy, take a look around!
 ### Frontend:
-* About 32,000 lines of React Native code, off-Expo
+* About 32,000 lines of React Native code(That I wrote, not include any community modules), off-Expo
 * Hundreds of components, 
 
   - Some are really delicated and complicated, which I am proud of, such as [/ejected/pages/Article_Roast_Display.js](https://github.com/leonyhenn/MASKOFF/blob/master/ejected/pages/Article_Roast_Display.js)
