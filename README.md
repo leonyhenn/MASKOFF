@@ -11,6 +11,17 @@ All sensitive information, such as access tokens, request endpoints, are replace
     - it was held on AWS lambda, until I found out lambda is not compatible with multi-thread module which can dramatically increase the backend performance.
   - [/ejected](https://github.com/leonyhenn/MASKOFF/tree/master/ejected), App front end, ejected from Expo.
   - [/front_before_eject](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject), App front end, Expo-compatible version.
+  - in [/ejected](https://github.com/leonyhenn/MASKOFF/tree/master/ejected) and [/front_before_eject](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject), there are several folders, I ll take [/ejected](https://github.com/leonyhenn/MASKOFF/tree/master/ejected) as an example:
+    - [/pages](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/pages): each page of the app
+    - [/navigations](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/navigations): React-Navigation2 module of the app
+    - [/components](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/components): some shared components among pages
+    - [/decoy](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/decoy): don't mind, just some decoy data
+    - [/leancloud](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/leancloud): real time chat test module, service provided by leancloud
+    - [/store](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/store): Redux module of the app
+    - [/expo_push](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/expo_push): expo push service. Did not work out due to a most of Android phone in China removed the entire Google FSM package
+    - [/test](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/test): test ground for new modules
+    - [/utility](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/utility): some shared utilities in the App
+  Now Don't be shy, take a look around!
 ### Frontend:
 * About 32,000 lines of React Native code, off-Expo
 * Hundreds of components, 
