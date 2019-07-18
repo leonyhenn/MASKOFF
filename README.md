@@ -56,4 +56,6 @@ All sensitive information, such as access tokens, request endpoints, are replace
 * Connects to **Elasticsearch** engine
   - Search engine queries samples can be found in [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py)
  
-  
+### FAQ
+* Why is it not on Github at the start?
+  - It was a startup project, I was really trying to make it as fast as I can. Early stage requires a lot of trials of React Native and a couple times of re-factor. It was in a private repo in the beginning, because of too many times of refactoring, I choose to abandon that repo, along with Github, I am the only dev anyway.
