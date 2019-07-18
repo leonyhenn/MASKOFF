@@ -21,7 +21,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
     - [/expo_push](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/expo_push): expo push service. Did not work out due to a most of Android phone in China removed the entire Google FSM package
     - [/test](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/test): test ground for new modules
     - [/utility](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/utility): some shared utilities in the App
-  Now Don't be shy, take a look around!
+  - Now Don't be shy, take a look around!
 ### Frontend:
 * About 32,000 lines of React Native code(That I wrote, not include any community modules), off-Expo
 * Hundreds of components, 
