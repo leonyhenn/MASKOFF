@@ -29,7 +29,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
 * Familiar with most community packages and performance optimization
   - I have literately tried at least a couple dozens of community modules
   - Due to the App is for commercial use, I value the performance the most
-  - for example, you can see my performance optimization work in https://github.com/sskhandek/react-native-emoji-input/issues/36 and https://github.com/facebook/react-native/issues/18767#issuecomment-403685280
+  - for example, you can see my performance optimization work in [set renderAheadOffset={1500} as a prop can greatly boost the performance](https://github.com/sskhandek/react-native-emoji-input/issues/36) and [TextInput not support Chinese input/clear() function doesn't work in recent release of Reac-Native](https://github.com/facebook/react-native/issues/18767#issuecomment-403685280)
 
 
 ### Backend:
