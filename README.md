@@ -1,9 +1,9 @@
 # MASKOFF
-This was my startup project, I wrote about 42,000 lines. Dedicated a year into it. Partner bounced at the last moment and fund was pulled out, right after I complete the entire project and before getting on the plane to China.
+This was my startup project, I wrote about **42,000** lines. Dedicated a year into it. Partner bounced at the last moment and fund was pulled out, right after I complete the entire project and before getting on the plane to China.
 
-All code are under strict copyright, please do not distribute, copy or modify. I post it on one purpose, for showing my ability.
+All code are under **strict copyright**, please do not distribute, copy or modify. I post it on one purpose, for showing my ability.
 
-All sensitive information, such as access tokens, request endpoints, are replaced by 'PLACEHOLDER_FOR_GITHUB'.
+All sensitive information, such as access tokens, request endpoints, are replaced by '**PLACEHOLDER_FOR_GITHUB**'.
 
 ### Project intro:
 * There are three main components in this project: 
@@ -23,7 +23,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
     - [/utility](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/utility): some shared utilities in the App
   - Now Don't be shy, take a look around!
 ### Frontend:
-* About 32,000 lines of React Native code(That I wrote, not include any community modules), off-Expo
+* About **32,000** lines of React Native code(That I wrote, not include any community modules), off-Expo
 * Hundreds of components, 
 
   - Some are really delicated and complicated, which I am proud of, such as [/ejected/pages/Article_Roast_Display.js](https://github.com/leonyhenn/MASKOFF/blob/master/ejected/pages/Article_Roast_Display.js)
@@ -44,7 +44,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
 
 
 ### Backend:
-* Python3 backend, **Flask** framework, about 10,000 lines
+* Python3 backend, **Flask** framework, about **10,000** lines
   - Chose Flask due to its lightweight feature
 * **Multi-threaded** structure to increase performance
   - Multi-thread modules are in [/backend/lambda/comments_mp_helpers.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/comments_mp_helpers.py), [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py) and [/backend/lambda/utility.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/utility.py)
