@@ -1,0 +1,13 @@
+# Copyright (C) Heng Ye - All Rights Reserved
+# Unauthorized copying of this file, via any medium is strictly prohibited
+# Proprietary and confidential
+# Written by Heng Ye <leonyhenn@gmail.com>, July 2019
+boto3==1.7.68
+botocore==1.10.68
+elasticsearch==6.3.1
+elasticsearch-dsl==6.2.1
+Flask==1.0.2
+PyJWT==1.6.4
+Werkzeug==0.14.1
+requests-aws4auth==0.9
+leancloud==2.1.8

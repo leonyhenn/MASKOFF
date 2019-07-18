@@ -1,0 +1,15 @@
+ToDoList.txt
+add sticker https://github.com/dbarner1/react-native-stickers#readme
+
+A tiny script for generating attractive random colors.  https://github.com/davidmerfield/randomColor
+
+get pixel on a coordinate https://github.com/scijs/get-pixels
+    https://www.jianshu.com/p/e1872926b80f #import <React/RCTBridge.h> solution
+
+
+rn-fetch-blob error: incompatible types: expolib_v1.okhttp3.OkHttpClient cannot be converted to okhttp3.OkHttpClient https://github.com/joltup/rn-fetch-blob/issues/238
+
+App.js cancel() 中删除源文件
+App.js save() 中保存到camera roll
+
+react-native-fs will only access the files from device storage.  https://stackoverflow.com/questions/54578294/react-native-fs-how-to-read-local-images-get-base64-of-local-file

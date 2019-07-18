@@ -1,0 +1,27 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@mapbox/geo-viewport": "^0.4.0",
+    "@mapbox/react-native-mapbox-gl": "https://github.com/nitaliano/react-native-mapbox-gl/tarball/master",
+    "@turf/along": "^6.0.1",
+    "expo": "^32.0.0",
+    "expokit": "^32.1.1",
+    "mapbox": "^1.0.0-beta10",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-baidu-map": "^1.0.6",
+    "react-native-elements": "^1.1.0",
+    "react-native-safe-area-view": "^0.14.4",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}

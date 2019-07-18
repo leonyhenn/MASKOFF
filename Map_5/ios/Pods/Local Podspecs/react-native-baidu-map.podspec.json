@@ -1,0 +1,50 @@
+{
+  "name": "react-native-baidu-map",
+  "version": "1.0.5",
+  "summary": "Baidu Map for React Native",
+  "description": "Baidu Map views and modules for React Native",
+  "homepage": "https://github.com/lovebing/react-native-baidu-map",
+  "screenshots": [
+    "https://raw.githubusercontent.com/lovebing/react-native-baidu-map/master/images/android.jpg",
+    "https://raw.githubusercontent.com/lovebing/react-native-baidu-map/master/images/ios.jpg"
+  ],
+  "license": "MIT",
+  "authors": {
+    "lovebing": "tangyangjian@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/lovebing/react-native-baidu-map.git",
+    "tag": "1.0.5"
+  },
+  "source_files": "ios/RCTBaiduMap/**/*.{h,m}",
+  "exclude_files": "",
+  "frameworks": [
+    "CoreLocation",
+    "QuartzCore",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Security",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "c++",
+    "sqlite3",
+    "ssl",
+    "crypto"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "BaiduMapKit": [
+      "4.2.0"
+    ],
+    "BMKLocationKit": [
+      "1.3.0.2"
+    ]
+  }
+}

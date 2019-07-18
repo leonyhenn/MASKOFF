@@ -1,0 +1,48 @@
+# Copyright (C) Heng Ye - All Rights Reserved
+# Unauthorized copying of this file, via any medium is strictly prohibited
+# Proprietary and confidential
+# Written by Heng Ye <leonyhenn@gmail.com>, July 2019
+service: maskoff-dev
+
+provider:
+  name: aws
+  runtime: python3.6
+  versionFunctions: false
+  memorySize: 128
+  region: ca-central-1
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:ca-central-1:357300913053:*"
+
+custom:
+  wsgi:
+    app: app.app
+    packRequirements: false
+  pythonRequirements:
+    dockerizePip: true
+
+functions:
+  app:
+    handler: wsgi.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+      
+plugins:
+  - serverless-python-requirements
+  - serverless-wsgi
+
+package:
+  exclude:
+    - unittest/**
+    - node_modules/**
+    - _pycache_/**
+    - package.json
+    - package-lock.json

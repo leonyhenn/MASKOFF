@@ -1,0 +1,66 @@
+{
+  "_from": "react-native-stickers",
+  "_id": "react-native-stickers@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Yh7J87+FWpBZDj6qDg7BpzSM4wVC1JsJNcFq3oSbqGDb72UNZDzoECEDGOdbfzobq+VxUUx6sa5DlUr1rkP/rg==",
+  "_location": "/react-native-stickers",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-stickers",
+    "name": "react-native-stickers",
+    "escapedName": "react-native-stickers",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-stickers/-/react-native-stickers-0.0.2.tgz",
+  "_shasum": "e576b0f696c2157c5d328fc23da7706f73cc0618",
+  "_spec": "react-native-stickers",
+  "_where": "/Users/study/MASKOFF/Mosaic",
+  "author": {
+    "name": "Dave Barner"
+  },
+  "bugs": {
+    "url": "https://github.com/dbarner1/react-native-stickers/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-view-shot": "^2.5.0"
+  },
+  "deprecated": false,
+  "description": "Fully customizable image sticker editor for react native",
+  "homepage": "https://github.com/dbarner1/react-native-stickers#readme",
+  "keywords": [
+    "react-native",
+    "photo stickers",
+    "stickers",
+    "image editing",
+    "view-shot",
+    "view shot",
+    "react",
+    "image",
+    "images",
+    "image stickers"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-stickers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbarner1/react-native-stickers.git"
+  },
+  "scripts": {
+    "build": "flow-remove-types src/ -d lib/",
+    "flow": "flow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.2"
+}

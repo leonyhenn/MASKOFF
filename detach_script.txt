@@ -1,0 +1,18 @@
+# Copyright (C) Heng Ye - All Rights Reserved
+# Unauthorized copying of this file, via any medium is strictly prohibited
+# Proprietary and confidential
+# Written by Heng Ye <leonyhenn@gmail.com>, July 2019
+expo init __project_name
+cd __project_name
+expo eject
+
+expo start
+
+
+#ios
+cd进ios
+pod install --repo-update
+
+#android
+cd进Android
+./gradlew installDevKernelDebug 

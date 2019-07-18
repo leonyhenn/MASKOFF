@@ -1,0 +1,1 @@
+../../../react-native-baidu-map/ios/RCTBaiduMap/BaseModule.h
