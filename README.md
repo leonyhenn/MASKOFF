@@ -38,7 +38,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
   - Due to the project was developed by me only, I tried to stay in Expo as much as I can, but there are modules that Expo do not support.
   - All linkings can be found in [/ejected/android/settings.gradle](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/android/settings.gradle)
 * Familiar with most community packages and performance optimization
-  - I have literately tried at least a couple dozens of community modules
+  - I have literately tried at least a hundred of community modules
   - Due to the App is for commercial use, I value the performance the most
   - for example, you can see my performance optimization work in [set renderAheadOffset={1500} as a prop can greatly boost the performance](https://github.com/sskhandek/react-native-emoji-input/issues/36#issue-438605362) and [TextInput not support Chinese input/clear() function doesn't work in recent release of Reac-Native](https://github.com/facebook/react-native/issues/18767#issuecomment-403685280)
 
