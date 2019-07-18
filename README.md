@@ -7,25 +7,25 @@ All sensitive information, such as access tokens, request endpoints, are replace
 
 ### Project intro:
 * There are three main components in this project: 
-  - /backend/lambda, the backend of the app.
+  - [/backend/lambda](https://github.com/leonyhenn/MASKOFF/tree/master/backend/lambda), the backend of the app.
     - it was held on AWS lambda, until I found out lambda is not compatible with multi-thread module which can dramatically increase the backend performance.
-  - /ejected, App front end, ejected from Expo.
-  - /front_before_eject, App front end, Expo-compatible version.
+  - [/ejected](https://github.com/leonyhenn/MASKOFF/tree/master/ejected), App front end, ejected from Expo.
+  - [/front_before_eject](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject), App front end, Expo-compatible version.
 ### Frontend:
 * About 32,000 lines of React Native code, off-Expo
 * Hundreds of components, 
 
-  - Some are really delicated and complicated, such as /ejected/pages/Article_Roast_Display.js
+  - Some are really delicated and complicated, which I am proud of, such as [/ejected/pages/Article_Roast_Display](https://github.com/leonyhenn/MASKOFF/blob/master/ejected/pages/Article_Roast_Display.js).js
   - Due to it is a startup project, there are also components that are not so delicated
 
 * Includes **ExpoKit**, **Redux**, **React-Navigation2** and **SQLite**
   - **ExpoKit** is scattered all over the front end
-  - **Redux** is specifically written in /ejected/store and /front_before_eject/store
-  - **React-Navigation2** is specifically written in /ejected/navigations and /front_before_eject/navigations
-  - **SQLite** is specifically written in /ejected/pages/chatPage and /front_before_eject/pages/chatPage to store chat history
+  - **Redux** is specifically written in [/ejected/store](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/store) and [/front_before_eject/store](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/store)
+  - **React-Navigation2** is specifically written in [/ejected/navigations](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/navigations) and [/front_before_eject/navigations](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/navigations)
+  - **SQLite** is specifically written in [/ejected/pages/chatPage](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/pages/chatPage) and [/front_before_eject/pages/chatPage](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/pages/chatPage) to store chat history
 * includes linking
   - Due to the project was developed by me only, I tried to stay in Expo as much as I can, but there are modules that Expo do not support.
-  - All linkings can be found in /ejected/android/settings.gradle
+  - All linkings can be found in [/ejected/android/settings.gradle](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/android/settings.gradle)
 * Familiar with most community packages and performance optimization
   - I have literately tried at least a couple dozens of community modules
   - Due to the App is for commercial use, I value the performance the most
