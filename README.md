@@ -22,7 +22,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
   - **ExpoKit** is scattered all over the front end
   - **Redux** is specifically written in [/ejected/store](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/store) and [/front_before_eject/store](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/store)
   - **React-Navigation2** is specifically written in [/ejected/navigations](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/navigations) and [/front_before_eject/navigations](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/navigations)
-  - **SQLite** is specifically written in [/ejected/pages/chatPage](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/pages/ChatPage.js) and [/front_before_eject/pages/chatPage](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/pages/ChatPage.js) to store chat history
+  - **SQLite** is specifically written in [/ejected/pages/ChatPage.js](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/pages/ChatPage.js) and [/front_before_eject/pages/ChatPage.js](https://github.com/leonyhenn/MASKOFF/tree/master/front_before_eject/pages/ChatPage.js) to store chat history
 * includes linking
   - Due to the project was developed by me only, I tried to stay in Expo as much as I can, but there are modules that Expo do not support.
   - All linkings can be found in [/ejected/android/settings.gradle](https://github.com/leonyhenn/MASKOFF/tree/master/ejected/android/settings.gradle)
