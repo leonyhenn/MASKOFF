@@ -36,13 +36,13 @@ All sensitive information, such as access tokens, request endpoints, are replace
 * Python3 backend, Flask framework, about 10,000 lines
   - Chose Flask due to its lightweight feature
 * Multi-threaded structure to increase performance
-  - Multi-thread modules are in /backend/lambda/comments_mp_helpers.py, /backend/lambda/frontpage.py and /backend/lambda/utility.py
+  - Multi-thread modules are in [/backend/lambda/comments_mp_helpers.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/comments_mp_helpers.py), [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py) and [/backend/lambda/utility.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/utility.py)
 * Use JSON Web Token as auth tool
-  - Auth is in /backend/lambda/utility.py
+  - Auth is in [/backend/lambda/utility.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/utility.py)
 * DynamoDB and MongoDB as database, Runs on AWS EC2, Lambda
   - DynamoDB are scattered in the entire backend
   - In the first version on AWS EC2, data was stored in MongoDB. Have to transfer to DynamoDB after migrate to AWS Lambda
 * Connects to Elasticsearch engine
-  - Search engine queries samples can be found in /backend/lambda/frontpage.py
+  - Search engine queries samples can be found in [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py)
  
   
