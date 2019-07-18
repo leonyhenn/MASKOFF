@@ -46,8 +46,8 @@ All sensitive information, such as access tokens, request endpoints, are replace
 ### Backend:
 * Python3 backend, **Flask** framework, about 10,000 lines
   - Chose Flask due to its lightweight feature
-* Multi-threaded structure to increase performance
-  - **Multi-thread** modules are in [/backend/lambda/comments_mp_helpers.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/comments_mp_helpers.py), [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py) and [/backend/lambda/utility.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/utility.py)
+* **Multi-threaded** structure to increase performance
+  - Multi-thread modules are in [/backend/lambda/comments_mp_helpers.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/comments_mp_helpers.py), [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py) and [/backend/lambda/utility.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/utility.py)
 * Use **JSON Web Token** as auth tool
   - Auth is in [/backend/lambda/utility.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/utility.py)
 * **DynamoDB** and **MongoDB** as database, Runs on **AWS EC2, Lambda**
