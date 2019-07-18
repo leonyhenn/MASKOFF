@@ -15,7 +15,7 @@ All sensitive information, such as access tokens, request endpoints, are replace
 * About 32,000 lines of React Native code, off-Expo
 * Hundreds of components, 
 
-  - Some are really delicated and complicated, which I am proud of, such as [/ejected/pages/Article_Roast_Display](https://github.com/leonyhenn/MASKOFF/blob/master/ejected/pages/Article_Roast_Display.js).js
+  - Some are really delicated and complicated, which I am proud of, such as [/ejected/pages/Article_Roast_Display.js](https://github.com/leonyhenn/MASKOFF/blob/master/ejected/pages/Article_Roast_Display.js)
   - Due to it is a startup project, there are also components that are not so delicated
 
 * Includes **ExpoKit**, **Redux**, **React-Navigation2** and **SQLite**
