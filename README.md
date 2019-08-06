@@ -55,6 +55,8 @@ All sensitive information, such as access tokens, request endpoints, are replace
   - In the first version on AWS EC2, data was stored in MongoDB. Have to transfer to DynamoDB after migrate to AWS Lambda
 * Connects to **Elasticsearch** engine
   - Search engine queries samples can be found in [/backend/lambda/frontpage.py](https://github.com/leonyhenn/MASKOFF/blob/master/backend/lambda/frontpage.py)
+* [**unittest**](https://github.com/leonyhenn/MASKOFF/tree/master/backend/lambda/unittest)
+
  
 ### FAQ
 * Why is it not on Github at the start?
